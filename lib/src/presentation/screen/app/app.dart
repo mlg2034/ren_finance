@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:ren_finance_mobile/src/shared/app_router.dart';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      
+    final _router = AppRouter();
+
+    return MaterialApp.router(
+      routerConfig: _router.config(),
     );
   }
 }
