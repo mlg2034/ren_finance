@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ren_finance_mobile/src/presentation/screen/bloc/app/multi_bloc_wrapper.dart';
 import 'package:ren_finance_mobile/src/shared/app_router.dart';
 
 class MyApp extends StatelessWidget {
@@ -8,8 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final _router = AppRouter();
 
-    return MaterialApp.router(
-      routerConfig: _router.config(),
+    return MultiBlocWrapper(
+      child: MaterialApp.router(
+        routerConfig: _router.config(),
+      ),
     );
   }
 }

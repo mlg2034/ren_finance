@@ -43,6 +43,7 @@ class _NavigationPageState extends State<NavigationPage>
                   icon: Icon(
                     Icons.newspaper,
                   ),
+                  
                   label: ''),
               BottomNavigationBarItem(
                   icon: Icon(

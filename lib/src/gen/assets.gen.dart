@@ -9,8 +9,31 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsDatabaseGen {
+  const $AssetsDatabaseGen();
+
+  /// File path: assets/database/post_database.db
+  String get postDatabase => 'assets/database/post_database.db';
+
+  /// List of all assets
+  List<String> get values => [postDatabase];
+}
+
+class $AssetsFontsGen {
+  const $AssetsFontsGen();
+
+  /// File path: assets/fonts/Righteous-Regular.ttf
+  String get righteousRegular => 'assets/fonts/Righteous-Regular.ttf';
+
+  /// List of all assets
+  List<String> get values => [righteousRegular];
+}
+
 class Assets {
   Assets._();
+
+  static const $AssetsDatabaseGen database = $AssetsDatabaseGen();
+  static const $AssetsFontsGen fonts = $AssetsFontsGen();
 }
 
 class AssetGenImage {
