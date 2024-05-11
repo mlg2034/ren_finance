@@ -9,7 +9,7 @@ part of 'create_post_model.dart';
 _$CreatePostModelImpl _$$CreatePostModelImplFromJson(
         Map<String, dynamic> json) =>
     _$CreatePostModelImpl(
-      id: json['id'] as int,
+      id: (json['id'] as num).toInt(),
       description: json['description'] as String,
       title: json['title'] as String,
     );

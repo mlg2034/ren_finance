@@ -33,7 +33,7 @@ class _NavigationPageState extends State<NavigationPage>
             showUnselectedLabels: false,
             onTap: (value) {
               if (tabsRouter.activeIndex == value) {
-                tabsRouter.popTop();
+                tabsRouter.maybePopTop();
               } else {
                 tabsRouter.setActiveIndex(value);
               }
@@ -43,7 +43,6 @@ class _NavigationPageState extends State<NavigationPage>
                   icon: Icon(
                     Icons.newspaper,
                   ),
-                  
                   label: ''),
               BottomNavigationBarItem(
                   icon: Icon(
