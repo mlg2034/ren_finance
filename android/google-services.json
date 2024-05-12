@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345010198774",
+    "project_id": "ren-finance-ea178",
+    "storage_bucket": "ren-finance-ea178.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345010198774:android:1cdf532181d187d041b4d7",
+        "android_client_info": {
+          "package_name": "com.example.ren_finance_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVDFZE-G9H5VmHZqpg0I8CwwPLqtzDfnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
